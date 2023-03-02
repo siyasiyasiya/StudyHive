@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* StudyHiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudyHiveTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-StudyHive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-StudyHive.a */; };
+		0D32E7D5265B401D8ED5B87C /* Mohave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00EFF5B5096842768F785E83 /* Mohave-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		23CA2E2CFE1D42428F84EE43 /* Mohave-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B794A2404E824BC6BF2B0E1D /* Mohave-VariableFont_wght.ttf */; };
+		35FD416A27D0424987ED84EE /* Mohave-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B919AD49F45A490ABFB8650C /* Mohave-Light.ttf */; };
+		4F856D0EBD914F8491BB7D62 /* Mohave-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEE66A05D4B34BBE921B6EA5 /* Mohave-Medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-StudyHive-StudyHiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-StudyHive-StudyHiveTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E088EA8523D64AF589D0AA54 /* Mohave-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4254BAB5646647BD94ADFDCF /* Mohave-SemiBold.ttf */; };
+		E4DEAB58EA18494F810BDC89 /* Mohave-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F82F2356C93C4CF49CC78074 /* Mohave-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,7 @@
 		00E356EE1AD99517003FC87E /* StudyHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyHiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* StudyHiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyHiveTests.m; sourceTree = "<group>"; };
+		00EFF5B5096842768F785E83 /* Mohave-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-Regular.ttf"; path = "../src/assets/fonts/Mohave-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* StudyHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StudyHive/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = StudyHive/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,12 +45,17 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StudyHive/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-StudyHive-StudyHiveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyHive-StudyHiveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-StudyHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHive.debug.xcconfig"; path = "Target Support Files/Pods-StudyHive/Pods-StudyHive.debug.xcconfig"; sourceTree = "<group>"; };
+		4254BAB5646647BD94ADFDCF /* Mohave-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-SemiBold.ttf"; path = "../src/assets/fonts/Mohave-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-StudyHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHive.release.xcconfig"; path = "Target Support Files/Pods-StudyHive/Pods-StudyHive.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-StudyHive-StudyHiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHive-StudyHiveTests.debug.xcconfig"; path = "Target Support Files/Pods-StudyHive-StudyHiveTests/Pods-StudyHive-StudyHiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-StudyHive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyHive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StudyHive/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-StudyHive-StudyHiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHive-StudyHiveTests.release.xcconfig"; path = "Target Support Files/Pods-StudyHive-StudyHiveTests/Pods-StudyHive-StudyHiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE66A05D4B34BBE921B6EA5 /* Mohave-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-Medium.ttf"; path = "../src/assets/fonts/Mohave-Medium.ttf"; sourceTree = "<group>"; };
+		B794A2404E824BC6BF2B0E1D /* Mohave-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-VariableFont_wght.ttf"; path = "../src/assets/fonts/Mohave-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B919AD49F45A490ABFB8650C /* Mohave-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-Light.ttf"; path = "../src/assets/fonts/Mohave-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F82F2356C93C4CF49CC78074 /* Mohave-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mohave-Bold.ttf"; path = "../src/assets/fonts/Mohave-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7800574CECDE412EB895B9E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B794A2404E824BC6BF2B0E1D /* Mohave-VariableFont_wght.ttf */,
+				F82F2356C93C4CF49CC78074 /* Mohave-Bold.ttf */,
+				B919AD49F45A490ABFB8650C /* Mohave-Light.ttf */,
+				AEE66A05D4B34BBE921B6EA5 /* Mohave-Medium.ttf */,
+				00EFF5B5096842768F785E83 /* Mohave-Regular.ttf */,
+				4254BAB5646647BD94ADFDCF /* Mohave-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +147,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7800574CECDE412EB895B9E7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +270,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				23CA2E2CFE1D42428F84EE43 /* Mohave-VariableFont_wght.ttf in Resources */,
+				E4DEAB58EA18494F810BDC89 /* Mohave-Bold.ttf in Resources */,
+				35FD416A27D0424987ED84EE /* Mohave-Light.ttf in Resources */,
+				4F856D0EBD914F8491BB7D62 /* Mohave-Medium.ttf in Resources */,
+				0D32E7D5265B401D8ED5B87C /* Mohave-Regular.ttf in Resources */,
+				E088EA8523D64AF589D0AA54 /* Mohave-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 889VWP2572;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StudyHive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,6 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 889VWP2572;
 				INFOPLIST_FILE = StudyHive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
